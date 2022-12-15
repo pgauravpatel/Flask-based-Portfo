@@ -212,7 +212,7 @@ section .title::after{
     margin-top: 20px;
     font-weight: 400;
     border-radius: 8px;
-    border: 5px solid rgb(237, 99, 14);
+    border: 5px solid rgb(138, 122, 112);
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
@@ -223,7 +223,7 @@ section .title::after{
 
 /* about section styling */
 .about{
-    background-color: #d4f0d6;
+    background-color: rgb(212, 240, 214);
 }
 .about .title::after{
     content: "who i am";
@@ -235,7 +235,9 @@ section .title::after{
     height: 400px;
     width: 400px;
     object-fit: cover;
-    border-radius: 6px;
+    border-radius: 50%;
+    border: 5px solid rgb(187, 243, 191);
+    background: linear-gradient(rgb(208, 194, 194), rgb(212,240,214) , blue);
 }
 .about .about-content .right{
     width: 55%;
